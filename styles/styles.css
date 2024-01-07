@@ -9,9 +9,31 @@ body{
 }
 .tittle{
 
-        font: size 45px; ;
-        font: weight 800px; ;
+        font: size 75px; ;
+        font: weight 1000px; ;
         color: black;
+        align-items: center;
+        padding-left: 150px;
+}
+
+
+.section-tittle{
+
+                color: black;
+                text-align: center;
+                font-size: 35px;
+                font-weight: 700px;
+                  
+}
+
+.banner-description{
+    color: #13d1c8;
+    text-align: center;
+    font-size: 20px;
+
+
+
+
 }
 
 .btn-primary{
@@ -50,15 +72,60 @@ color: brown;
 
 }
 .header{
-    background-color:#ebc390
+    background-color:#ebc390;
+    background-image:url('../images/rainbow\ 1.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right ;
 }
 
 .banner{
-  padding:30px 30px 30px 150px ;
+  padding:30px 30px 0px 150px ;
   display: flex;
   align-items: center;
 
 }
 .banner .profile-pic{
-        width: 500px;
+                         width: 500px;
+                         justify-content: space-between;
+
+
+}
+
+
+
+.banner-greating{
+                font-size: 45px;
+                color: green;
+                margin-bottom: 0;
+
+}
+
+.banner-tittle{
+    font-size: 85px;
+    font-weight: 800px;
+    margin-top: 5px;
+    margin-bottom:20px ;
+
+
+
+}
+
+
+.banner-description{
+        width: max-content;
+
+}
+
+.banner-content{
+    max-width: 500px;
+
+}
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background:#5ebac68c ; 
+    margin: 130px 0px ;
+    
+
 }
