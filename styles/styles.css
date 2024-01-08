@@ -126,6 +126,11 @@ main{
 
 }
 
+main section{
+
+   
+}
+
 .about{
     padding: 130px;
     border-radius: 10px;
@@ -152,5 +157,43 @@ main{
 
 #what-i-do-description{
 
-    padding: 30px 150px ;
+    padding: 30px 300px ;
+}
+
+.skill-container{
+
+                display: flex;
+                gap: 24px;
+
+
+
+}
+.skill{
+            padding: 30px;
+            border-radius: 1px;
+            background: #f3f8f8;
+            box-shadow: 0px 6px 50px 0px;
+            box-sizing: content-box;
+
+
+
+
+}
+
+
+
+.skill-description{
+    color: ;
+   
+}
+
+
+
+.resume-colaum-tittle{
+        color: cadetblue;
+        font-size: 30px;
+        font-weight: 700px;
+
+
+
 }
