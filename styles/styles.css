@@ -197,3 +197,9 @@ main section{
 
 
 }
+
+.resume-container{
+    display: flex;
+    gap:50px;
+}
+
